@@ -12,11 +12,19 @@ h1,
 h2 {
     /* code orqali  */
     color: #090941;
+    /* font sizeni rem orqali berish: 1rem=16px */
+    font-size: 2rem;
 }
 
 p{
     /* rgba orqali */
     color: rgba(0, 0, 0, 0.5);
+}
+.text{
+    color: #000;
+    /* ko'p brauzerlarda font-size 16px deafoult bo'ladi */
+    /* font sizeni px orqali berish */
+font-size: 32px;
 }
 /*.gray {
     color: gray;
