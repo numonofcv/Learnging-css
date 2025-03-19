@@ -8,24 +8,24 @@ body {
     /* rgb orqali */
     color: rgb(0, 0, 0);
 }
-h1,
+/* h1,
 h2 {
-    /* code orqali  */
+     code orqali  
     color: #090941;
-    /* font sizeni rem orqali berish: 1rem=16px */
+    /* font sizeni rem orqali berish: 1rem=16px 
     font-size: 2rem;
-}
+} */
 
-p {
+/* p {
     /* rgba orqali */
-    color: rgba(0, 0, 0, 0.5);
-}
-.text {
-    color: #000;
-    /* ko'p brauzerlarda font-size 16px deafoult bo'ladi */
-    /* font sizeni px orqali berish */
-    font-size: 32px;
-}
+    /* color: rgba(0, 0, 0, 0.5); 
+} */
+/* .text {
+     color: #000; 
+     ko'p brauzerlarda font-size 16px deafoult bo'ladi 
+     font sizeni px orqali berish 
+     font-size: 32px; 
+} */
 /*.gray {
     color: gray;
 }
@@ -43,11 +43,12 @@ p {
 #second {
     font-style: italic;
 } */
-.container {
-    /* margin-top: 1.5em;
+ /* Css Box Model */
+/* .container {
+    margin-top: 1.5em;
     margin-right: 2em;
     margin-buttom: 2em;
-    margin-light: 2em; */
+    margin-light: 2em;
     margin: 1.5rem 2rem 2rem;
     padding: 1em;
     border: 10px double red;
@@ -56,26 +57,26 @@ p {
     outline-offset: -20px;
     margin: 1.5rem 2rem 2rem;
     padding: 1em;
-}
-.container h1,
+} */
+/* .container h1,
 p {
-    /* border-top-color:blue ; */
-    /* border-top-width: 10px; */
-    /* border-top: 2px solid black; */
-    /* border-right: 4px dotted black; */
+    border-top-color:blue ;
+    border-top-width: 10px;
+    border-top: 2px solid black;
+    border-right: 4px dotted black;
     font-size: 1.5rem;
-    /* margin-top: 1.5em;
+    margin-top: 1.5em;
     margin-right: 2em;
     margin-buttom: 2em;
-    margin-light: 2em; */
-}
+    margin-light: 2em;
+} */
 .circle{
     width: 100px;
     height: 100px;
     margin:3rem auto;
     background-color: gray;
     border: 2px solid #090941;
-    border-radius: 50%
+    border-radius: 50%;
     outline: 5px solid #489692f5;
     outline-offset: 0.5rem;
 }    
