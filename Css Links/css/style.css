@@ -1,0 +1,18 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+}
+a{
+    cursor: pointer;
+    color: black;
+}
+a:visited{
+    color: purple;
+}
+a:hover, a:focus{
+    /* color: darkgray; */
+    opacity: 0.5;
+}
+a:active{
+    color: red;
+}
